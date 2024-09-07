@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sympa\n"
 "Report-Msgid-Bugs-To: https://translate.sympa.community\n"
-"POT-Creation-Date: 2024-08-26 00:48:17+0000\n"
+"POT-Creation-Date: 2024-09-07 00:48:35+0000\n"
 "PO-Revision-Date: 2022-06-17 06:02+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Ελληνικά\n"
@@ -757,7 +757,7 @@ msgstr "Κλειστή λίστα"
 
 #. This entry contains date/time conversions.  See
 #. https://perldoc.perl.org/POSIX#strftime for details.
-#: src/lib/Sympa/Message.pm:1698 src/lib/Sympa/Process.pm:415
+#: src/lib/Sympa/Message.pm:1698 src/lib/Sympa/Process.pm:419
 msgid "%d %b %Y  %H:%M"
 msgstr "%d %b %Y %H:%M"
 
@@ -958,8 +958,8 @@ msgstr ""
 msgid "Anonymous"
 msgstr "Ανώνυμος αποστολέας"
 
-#: default/web_tt2/docindex.tt2:47 default/web_tt2/modindex.tt2:78
-#: src/lib/Sympa/Process.pm:418 src/lib/Sympa/Process.pm:421
+#: default/web_tt2/docindex.tt2:47 default/web_tt2/modindex.tt2:82
+#: src/lib/Sympa/Process.pm:422 src/lib/Sympa/Process.pm:425
 #: src/lib/Sympa/Template.pm:186
 #, fuzzy
 msgid "(unknown date)"
@@ -969,7 +969,7 @@ msgstr "%1 : άγνωστη ενέργεια"
 #. https://perldoc.perl.org/POSIX#strftime for details.
 #: src/cgi/wwsympa.fcgi.in:1164 src/cgi/wwsympa.fcgi.in:2868
 #: src/cgi/wwsympa.fcgi.in:5919 src/cgi/wwsympa.fcgi.in:5922
-#: src/cgi/wwsympa.fcgi.in:8808 src/cgi/wwsympa.fcgi.in:9680
+#: src/cgi/wwsympa.fcgi.in:8812 src/cgi/wwsympa.fcgi.in:9686
 #: src/lib/Sympa/Template.pm:326 src/lib/Sympa/Upgrade.pm:1004
 #: src/lib/Sympa/Upgrade.pm:2050
 msgid "%d %b %Y at %H:%M:%S"
@@ -1027,15 +1027,15 @@ msgstr ""
 #. https://perldoc.perl.org/POSIX#strftime for details.
 #: default/web_tt2/suboptions.tt2:14 default/web_tt2/suboptions.tt2:16
 #: default/web_tt2/suboptions.tt2:94 default/web_tt2/suboptions.tt2:98
-#: src/cgi/wwsympa.fcgi.in:13592 src/cgi/wwsympa.fcgi.in:13596
-#: src/cgi/wwsympa.fcgi.in:14701 src/cgi/wwsympa.fcgi.in:14790
-#: src/cgi/wwsympa.fcgi.in:14896 src/cgi/wwsympa.fcgi.in:16088
-#: src/cgi/wwsympa.fcgi.in:16090 src/cgi/wwsympa.fcgi.in:4789
-#: src/cgi/wwsympa.fcgi.in:4860 src/cgi/wwsympa.fcgi.in:8479
-#: src/cgi/wwsympa.fcgi.in:9183 src/cgi/wwsympa.fcgi.in:9231
-#: src/cgi/wwsympa.fcgi.in:9493 src/cgi/wwsympa.fcgi.in:9496
-#: src/cgi/wwsympa.fcgi.in:9532 src/cgi/wwsympa.fcgi.in:9534
-#: src/cgi/wwsympa.fcgi.in:9813 src/cgi/wwsympa.fcgi.in:9816
+#: src/cgi/wwsympa.fcgi.in:13598 src/cgi/wwsympa.fcgi.in:13602
+#: src/cgi/wwsympa.fcgi.in:14707 src/cgi/wwsympa.fcgi.in:14796
+#: src/cgi/wwsympa.fcgi.in:14902 src/cgi/wwsympa.fcgi.in:16094
+#: src/cgi/wwsympa.fcgi.in:16096 src/cgi/wwsympa.fcgi.in:4789
+#: src/cgi/wwsympa.fcgi.in:4860 src/cgi/wwsympa.fcgi.in:8483
+#: src/cgi/wwsympa.fcgi.in:9189 src/cgi/wwsympa.fcgi.in:9237
+#: src/cgi/wwsympa.fcgi.in:9499 src/cgi/wwsympa.fcgi.in:9502
+#: src/cgi/wwsympa.fcgi.in:9538 src/cgi/wwsympa.fcgi.in:9540
+#: src/cgi/wwsympa.fcgi.in:9819 src/cgi/wwsympa.fcgi.in:9822
 #: src/lib/Sympa/Aliases/Template.pm:51 src/lib/Sympa/Message/Template.pm:105
 #: src/lib/Sympa/Message/Template.pm:108 src/lib/Sympa/Message/Template.pm:115
 msgid "%d %b %Y"
@@ -1068,14 +1068,14 @@ msgstr ""
 
 #. This entry contains sprintf conversions.  See
 #. https://perldoc.perl.org/functions/sprintf for details.
-#: src/lib/Sympa/CLI/help.pm:74
+#: src/lib/Sympa/CLI/help.pm:92
 #, fuzzy, c-format
 msgid "Unknown command '%s'"
 msgstr "Άκυρο όνομα αρχείου: '%1'"
 
 #. This entry contains sprintf conversions.  See
 #. https://perldoc.perl.org/functions/sprintf for details.
-#: src/lib/Sympa/CLI/help.pm:78
+#: src/lib/Sympa/CLI/help.pm:96
 #, c-format
 msgid "See '%s help' to know available commands"
 msgstr ""
@@ -2498,7 +2498,7 @@ msgstr "Ποιος μπορεί να επεξεργαστεί"
 msgid "quota"
 msgstr "όριο"
 
-#: default/web_tt2/docindex.tt2:53 default/web_tt2/modindex.tt2:84
+#: default/web_tt2/docindex.tt2:53 default/web_tt2/modindex.tt2:88
 #: src/lib/Sympa/Config/Schema.pm:1723 src/lib/Sympa/Config/Schema.pm:1799
 #: src/lib/Sympa/Config/Schema.pm:1859
 msgid "Kbytes"
@@ -3867,7 +3867,9 @@ msgid "Enable ARC"
 msgstr ""
 
 #: src/lib/Sympa/Config/Schema.pm:4578
-msgid "SRV ID for Authentication-Results used in ARC seal"
+msgid ""
+"Authentication service identifier (authserv-id) for Authentication-Results "
+"used in ARC seal"
 msgstr ""
 
 #: src/lib/Sympa/Config/Schema.pm:4579
@@ -4929,7 +4931,7 @@ msgstr "Πίνακας περιεχομένων:"
 
 #. This entry contains date/time conversions.  See
 #. https://perldoc.perl.org/POSIX#strftime for details.
-#: src/cgi/wwsympa.fcgi.in:7096 src/cgi/wwsympa.fcgi.in:7830
+#: src/cgi/wwsympa.fcgi.in:7096 src/cgi/wwsympa.fcgi.in:7834
 #: src/lib/Sympa/Request/Handler/index.pm:77
 #: src/lib/Sympa/Spindle/ProcessDigest.pm:178
 msgid "%a, %d %b %Y %H:%M:%S"
@@ -4979,7 +4981,7 @@ msgstr ""
 
 #. This entry contains date/time conversions.  See
 #. https://perldoc.perl.org/POSIX#strftime for details.
-#: src/cgi/wwsympa.fcgi.in:15353 src/lib/Sympa/WWW/SharedDocument.pm:346
+#: src/cgi/wwsympa.fcgi.in:15359 src/lib/Sympa/WWW/SharedDocument.pm:346
 msgid "%d %b %Y %H:%M:%S"
 msgstr "%d %b %Y %H:%M:%S"
 
@@ -5153,66 +5155,66 @@ msgstr "%H:%M:%S"
 msgid "Your lists"
 msgstr "Οι λίστες μου"
 
-#: src/cgi/wwsympa.fcgi.in:12018 src/cgi/wwsympa.fcgi.in:12483
+#: src/cgi/wwsympa.fcgi.in:12024 src/cgi/wwsympa.fcgi.in:12489
 #, fuzzy
 msgid "New file"
 msgstr "αρχείο βοήθειας"
 
-#: src/cgi/wwsympa.fcgi.in:12022
+#: src/cgi/wwsympa.fcgi.in:12028
 #, fuzzy
 msgid "New directory"
 msgstr "Κατάλογος"
 
-#: src/cgi/wwsympa.fcgi.in:12489
+#: src/cgi/wwsympa.fcgi.in:12495
 #, fuzzy
 msgid "New bookmark"
 msgstr "Προσθήκη σελιδοδείκτη"
 
-#: src/cgi/wwsympa.fcgi.in:14877
+#: src/cgi/wwsympa.fcgi.in:14883
 msgid "Mail sending"
 msgstr "Αποστολή μηνύματος"
 
-#: src/cgi/wwsympa.fcgi.in:14879
+#: src/cgi/wwsympa.fcgi.in:14885
 #, fuzzy
 msgid "Subscription additions"
 msgstr "Περίληψη συνδρομής"
 
-#: src/cgi/wwsympa.fcgi.in:14880
+#: src/cgi/wwsympa.fcgi.in:14886
 #, fuzzy
 msgid "Unsubscription"
 msgstr "Εκκρεμείς εγγραφές συνδρομητών"
 
-#: src/cgi/wwsympa.fcgi.in:14881
+#: src/cgi/wwsympa.fcgi.in:14887
 msgid "Users deleted by admin"
 msgstr "Χρήστες διαγραμμένοι από διαχειριστή"
 
-#: src/cgi/wwsympa.fcgi.in:14883
+#: src/cgi/wwsympa.fcgi.in:14889
 #, fuzzy
 msgid "Users deleted automatically"
 msgstr "Χρήστες διαγραμμένοι από διαχειριστή"
 
-#: src/cgi/wwsympa.fcgi.in:14884
+#: src/cgi/wwsympa.fcgi.in:14890
 msgid "File uploading"
 msgstr ""
 
-#: src/cgi/wwsympa.fcgi.in:14885
+#: src/cgi/wwsympa.fcgi.in:14891
 #, fuzzy
 msgid "File creation"
 msgstr "Συμπερίληψη αρχείου"
 
-#: src/cgi/wwsympa.fcgi.in:14886
+#: src/cgi/wwsympa.fcgi.in:14892
 #, fuzzy
 msgid "Directory creation"
 msgstr "Το αρχείο %1 βρίσκεται σε αναμονή συντονισμού"
 
 #. This entry contains sprintf conversions.  See
 #. https://perldoc.perl.org/functions/sprintf for details.
-#: src/cgi/wwsympa.fcgi.in:16097
+#: src/cgi/wwsympa.fcgi.in:16103
 #, fuzzy, c-format
 msgid "topic (%s)"
 msgstr "θέματα"
 
-#: default/web_tt2/subscriber_table.tt2:166 src/cgi/wwsympa.fcgi.in:16115
+#: default/web_tt2/subscriber_table.tt2:166 src/cgi/wwsympa.fcgi.in:16121
 #, fuzzy
 msgid "included"
 msgstr "Εξαίρεση"
@@ -5426,7 +5428,7 @@ msgstr "Αρχείο λιστών"
 #: default/web_tt2/edit_list_request.tt2:51
 #: default/web_tt2/edit_list_request.tt2:62
 #: default/web_tt2/edit_list_request.tt2:9 default/web_tt2/editfile.tt2:6
-#: default/web_tt2/modindex.tt2:148 default/web_tt2/modindex.tt2:4
+#: default/web_tt2/modindex.tt2:152 default/web_tt2/modindex.tt2:4
 #: default/web_tt2/nav.tt2:447 default/web_tt2/nav.tt2:500
 #: default/web_tt2/nav.tt2:7 default/web_tt2/pref.tt2:7
 #: default/web_tt2/rename_list_request.tt2:7 default/web_tt2/review.tt2:21
@@ -6113,7 +6115,7 @@ msgid "Are you sure you wish to restore list %1?"
 msgstr "Είστε σίγουρος ότι θέλετε να επαναφέρετε τη λίστα %1;"
 
 #: default/web_tt2/confirm_action.tt2:285
-#: default/web_tt2/get_closed_lists.tt2:47
+#: default/web_tt2/get_closed_lists.tt2:51
 msgid "Purge selected lists"
 msgstr "Εκκαθάριση επιλεγμένων λιστών"
 
@@ -6216,7 +6218,7 @@ msgid ""
 msgstr "Σας στείλαμε ένα μήνυμα στην διεύθυνση %1 με ένα σύνδεσμο επαλήθευσης."
 
 #: default/mhonarc_rc.tt2:261 default/web_tt2/confirm_action.tt2:540
-#: default/web_tt2/modindex.tt2:124
+#: default/web_tt2/modindex.tt2:128
 #, fuzzy
 msgid "Report messages as undetected spam"
 msgstr "Επισήμανση μηνύματος ως μη εντοπισμένο spam"
@@ -6693,7 +6695,8 @@ msgid "Size (Kb)"
 msgstr "Μέγεθος (Kb)"
 
 #: default/web_tt2/d_read.tt2:124 default/web_tt2/d_read.tt2:128
-#: default/web_tt2/latest_d_read.tt2:19 default/web_tt2/subscriber_table.tt2:87
+#: default/web_tt2/get_closed_lists.tt2:24 default/web_tt2/latest_d_read.tt2:19
+#: default/web_tt2/subscriber_table.tt2:87
 msgid "Last update"
 msgstr "Τελευταία ενημέρωση"
 
@@ -7276,7 +7279,7 @@ msgstr "θέμα λίστας"
 msgid "Requested by"
 msgstr "Αίτηση από"
 
-#: default/web_tt2/get_closed_lists.tt2:50
+#: default/web_tt2/get_closed_lists.tt2:54
 #, fuzzy
 msgid " No closed lists"
 msgstr "Κλειστή λίστα"
@@ -7618,7 +7621,7 @@ msgstr " Τα πιο πρόσφατα μηνύματα για αυτή τη λί
 msgid "From"
 msgstr "Από"
 
-#: default/web_tt2/latest_arc.tt2:29 default/web_tt2/modindex.tt2:71
+#: default/web_tt2/latest_arc.tt2:29 default/web_tt2/modindex.tt2:74
 msgid "No subject"
 msgstr "Δεν ορίστηκε θέμα"
 
@@ -8046,52 +8049,52 @@ msgstr "Προβολή μηνυμάτων προς συντονισμό"
 msgid "Spam"
 msgstr "Σα"
 
-#: default/web_tt2/modindex.tt2:89
+#: default/web_tt2/modindex.tt2:93
 #, fuzzy
 msgid "Bulk moderation"
 msgstr "Συντονισμός"
 
-#: default/web_tt2/modindex.tt2:94
+#: default/web_tt2/modindex.tt2:98
 #, fuzzy
 msgid "Distribute selected emails"
 msgstr "Διαγραφή επιλεγμένων διευθύνσεων"
 
-#: default/web_tt2/modindex.tt2:100
+#: default/web_tt2/modindex.tt2:104
 #, fuzzy
 msgid "Reject selected emails"
 msgstr "Απόρριψη επιλεγμένων διευθύνσεων"
 
-#: default/web_tt2/modindex.tt2:106 default/web_tt2/viewmod.tt2:27
+#: default/web_tt2/modindex.tt2:110 default/web_tt2/viewmod.tt2:27
 #, fuzzy
 msgid "No notification"
 msgstr "Μαγική ταυτοποίηση"
 
-#: default/web_tt2/modindex.tt2:109 default/web_tt2/viewmod.tt2:29
+#: default/web_tt2/modindex.tt2:113 default/web_tt2/viewmod.tt2:29
 msgid "Server default rejection message"
 msgstr "Προεπιλεγμένο μήνυμα απόρριψης"
 
-#: default/web_tt2/modindex.tt2:131 default/web_tt2/viewmod.tt2:46
+#: default/web_tt2/modindex.tt2:135 default/web_tt2/viewmod.tt2:46
 msgid "Add to blocklist"
 msgstr "Προσθήκη στη μάυρη-λίστα"
 
-#: default/web_tt2/modindex.tt2:140
+#: default/web_tt2/modindex.tt2:144
 #, fuzzy
 msgid "No messages to moderate"
 msgstr "Δεν υπάρχουν μηνύματα προς συντονισμό"
 
-#: default/web_tt2/modindex.tt2:146
+#: default/web_tt2/modindex.tt2:150
 msgid "Moderation management"
 msgstr "Διαχείριση συντονισμού"
 
-#: default/web_tt2/modindex.tt2:156
+#: default/web_tt2/modindex.tt2:160
 msgid "edit blocklist"
 msgstr "επεξεργασία μαύρης-λίστας"
 
-#: default/web_tt2/modindex.tt2:158
+#: default/web_tt2/modindex.tt2:162
 msgid "Manage rejection messages"
 msgstr "Διαχείριση μηνυμάτων απόρριψης"
 
-#: default/web_tt2/modindex.tt2:162 default/web_tt2/viewmod.tt2:2
+#: default/web_tt2/modindex.tt2:166 default/web_tt2/viewmod.tt2:2
 #, fuzzy
 msgid "Current message"
 msgstr "μήνυμα υπενθύμισης"
@@ -15401,20 +15404,6 @@ msgstr "Web forum ML"
 #: doc/samples/intranet/create_list_templates/intranet_list/comment.tt2:1
 msgid "Mailing list for intranets"
 msgstr "Λίστα για εσωτερικό δίκτυο"
-
-#: default/web_tt2/renewpasswd.tt2:13
-msgid ""
-"Unable to continue: The username / password combination provided was "
-"incorrect."
-msgstr ""
-
-#: default/web_tt2/suboptions.tt2:122 default/web_tt2/suboptions.tt2:125
-#: default/web_tt2/suboptions.tt2:127 default/web_tt2/suspend_request.tt2:93
-#: default/web_tt2/suspend_request.tt2:97
-#: default/web_tt2/suspend_request.tt2:98 default/web_tt2/viewlogs.tt2:30
-#: default/web_tt2/viewlogs.tt2:34
-msgid "dd-mm-yyyy"
-msgstr ""
 
 #~ msgid ""
 #~ "The password was incorrect. Please try again. Perhaps you have forgotten "
